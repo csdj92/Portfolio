@@ -311,7 +311,7 @@ h6 { font-size: 16px;}
 }
 
 
-.post-wrapper{
+.card-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
 	gap:20px;
@@ -319,7 +319,7 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 }
 
-.post{
+.card{
 	border:1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
@@ -340,17 +340,17 @@ h6 { font-size: 16px;}
 	object-fit: cover;
 }
 
-.post-preview{
+.card-preview{
 	background-color: #fff;
 	padding:15px;
 }
 
-.post-title{
+.card-title{
 	color:black;
 	margin: 0;
 }
 
-.post-intro{
+.card-intro{
 	color:#4b5156;
 	font-size: 14px;
 }

@@ -38,3 +38,4 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+
