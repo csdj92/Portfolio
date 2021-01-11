@@ -326,11 +326,12 @@ h6 { font-size: 16px;}
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
-.post{
+.card{
 	border:1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	background-color: none;
 }
 
 .thumbnail{
@@ -353,6 +354,10 @@ h6 { font-size: 16px;}
 .post-intro{
 	color:#4b5156;
 	font-size: 14px;
+}
+
+#demo collapse.show{
+	color: white;
 }
 
 
